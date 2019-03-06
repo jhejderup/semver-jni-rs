@@ -10,7 +10,7 @@ use jni::sys::{jstring};
 
 #[no_mangle]
 #[allow(non_snake_case)]
-pub extern "system" fn Java_CargoSemver_resolve(env: JNIEnv,
+pub extern "system" fn Java_Crates_resolve(env: JNIEnv,
                                              _class: JClass,
                                              req: JString,
                                              versions: JString)
